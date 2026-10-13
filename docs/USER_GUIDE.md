@@ -32,14 +32,17 @@ This guide takes you from nothing to automatic class notes. Setup takes about 15
 
 The app is installed from an APK file. It is not on the Play Store.
 
-1. Get the APK file:
-   - If someone gave you `app-release.apk` or `app-debug.apk`, copy it to your phone (Telegram "Saved Messages", Google Drive, or USB cable).
-   - To build it yourself, see [Building from source](#building-from-source) at the end.
-2. On the phone, open the APK file from your file manager or from Telegram.
-3. Android asks to **allow installing unknown apps** from that source (Files, Chrome or Telegram). Tap **Settings** → turn on **Allow from this source** → go back.
+1. Download the APK on your phone:
+   - Open **https://github.com/mostakimsakib0/Class-Notes/releases/latest**
+   - Under **Assets**, tap **`class-notes-v….apk`** to download it.
+   - (Or build it yourself: see [Building from source](#building-from-source) at the end.)
+2. Open the downloaded file (from the browser's downloads or your Files app).
+3. Android asks to **allow installing unknown apps** from that source (Chrome or Files). Tap **Settings** → turn on **Allow from this source** → go back.
 4. Tap **Install**.
 5. If Play Protect warns "unsafe app", tap **More details → Install anyway**. It warns because the app is not from the Play Store.
 6. Open **Class Recorder**.
+
+**Updating:** download the newer APK from the same Releases page and install it over the old one. Your routine and notes are kept.
 7. When asked, **allow notifications**.
 
 ---

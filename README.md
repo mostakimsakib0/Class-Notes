@@ -22,7 +22,7 @@ Everything runs on the phone. There is no server.
 Tap-by-tap details: [docs/USER_GUIDE.md](docs/USER_GUIDE.md).
 
 
-1. **Install** the APK (see *Build*) on an Android 10+ phone.
+1. **Install** the APK from [Releases](https://github.com/mostakimsakib0/Class-Notes/releases/latest) on an Android 10+ phone.
 2. **Gemini:** get an API key at [Google AI Studio](https://aistudio.google.com/) → Settings → Gemini → *Add*. The app checks the key and lists the available models.
 3. **Telegram:**
    1. Create a bot with [@BotFather](https://t.me/BotFather) and copy its token → Settings → Telegram → *Bot token*.
@@ -45,6 +45,8 @@ flutter build apk --release   # or: flutter run
 ```
 
 The APK is at `app/build/app/outputs/flutter-apk/`.
+
+Release builds are signed with the key referenced by `app/android/key.properties` (gitignored; not in the repo). Without that file, release builds fall back to the debug key, and such an APK can't be installed as an update over an official release.
 
 `app/android/gradle.properties` points Gradle at `/usr/lib/jvm/java-17-openjdk-amd64` (Gradle 8.14 does not run on Java 25). Change or remove that line if your JDK 17 is elsewhere.
 
