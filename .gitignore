@@ -1,0 +1,5 @@
+# Secrets never belong in the repo: the app stores API keys and bot tokens on the phone.
+.env
+*.keystore
+*.jks
+key.properties
