@@ -15,7 +15,12 @@ An Android app that records your university classes on your phone and turns them
 
 Everything runs on the phone. There is no server.
 
-## Setup
+**👉 New here? Follow the [step-by-step guide](docs/USER_GUIDE.md):** install, Gemini key, Telegram bot and channel, permissions, routine, daily use, and troubleshooting.
+
+## Setup (short version)
+
+Tap-by-tap details: [docs/USER_GUIDE.md](docs/USER_GUIDE.md).
+
 
 1. **Install** the APK (see *Build*) on an Android 10+ phone.
 2. **Gemini:** get an API key at [Google AI Studio](https://aistudio.google.com/) → Settings → Gemini → *Add*. The app checks the key and lists the available models.
