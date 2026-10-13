@@ -22,7 +22,7 @@ Everything runs on the phone. There is no server.
 Tap-by-tap details: [docs/USER_GUIDE.md](docs/USER_GUIDE.md).
 
 
-1. **Install** the APK from [Releases](https://github.com/mostakimsakib0/Class-Notes/releases/latest) on an Android 10+ phone.
+1. **Install** the APK from [Releases](https://github.com/mostakimsakib0/Class-Notes/releases) on an Android 10+ phone.
 2. **Gemini:** get an API key at [Google AI Studio](https://aistudio.google.com/) → Settings → Gemini → *Add*. The app checks the key and lists the available models.
 3. **Telegram:**
    1. Create a bot with [@BotFather](https://t.me/BotFather) and copy its token → Settings → Telegram → *Bot token*.

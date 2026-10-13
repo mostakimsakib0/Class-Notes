@@ -33,8 +33,8 @@ This guide takes you from nothing to automatic class notes. Setup takes about 15
 The app is installed from an APK file. It is not on the Play Store.
 
 1. Download the APK on your phone:
-   - Open **https://github.com/mostakimsakib0/Class-Notes/releases/latest**
-   - Under **Assets**, tap **`class-notes-v….apk`** to download it.
+   - Open **https://github.com/mostakimsakib0/Class-Notes/releases**
+   - Open the newest release; under **Assets**, tap **`class-notes-v….apk`** to download it.
    - (Or build it yourself: see [Building from source](#building-from-source) at the end.)
 2. Open the downloaded file (from the browser's downloads or your Files app).
 3. Android asks to **allow installing unknown apps** from that source (Chrome or Files). Tap **Settings** → turn on **Allow from this source** → go back.
