@@ -13,8 +13,7 @@ Gemini writes the transcript and notes, and everything is saved in your own priv
   <a href="#troubleshooting"><b>🛠 Troubleshooting</b></a>
 </p>
 
-> **Status: v1.0.0 pre-release.** It builds and the unit tests pass, but it hasn't been tested on many phones yet.
-> Do the [5-minute test](docs/USER_GUIDE.md#9-do-a-5-minute-test) before relying on it in a real class.
+> **v1.0.0** is out. After setup, do the [5-minute test](docs/USER_GUIDE.md#9-do-a-5-minute-test) to check everything is connected.
 
 ---
 
